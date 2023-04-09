@@ -23,7 +23,7 @@ const client = new FetchSolNftClient(RPC)
 ## __Usage__
 Client provides multiple subclient, which do different things.
 
-##### 0. __Fetch__
+#### 0. __Fetch__
 Fetch client provides function to fetch Solana NFTs.
 ```ts
 const MINT = new PublicKey("3Z3HYn4TW9bnUrd58j6wKzQgmz23JPzS4PN12JXamZ9n")
@@ -34,14 +34,14 @@ const nft = await client.fetch.nftByMint({
 Available functions: `nftByMint`.
 _More functions, such as nftsByOwner, nftsByMintList to be added soon._
 
-##### 1. __Constants__
+#### 1. __Constants__
 Constants client contains on-chain program IDs needed for working with NFTs.
 ```ts
 const METAPLEX_TOKEN_METADATA_PROGRAM_ID = client.constants.tokenMetadataProgramId
 ```
 Programs available: `tokenMetadataProgramId`, `associatedTokenProgramId`, `tokenProgramId`.
 
-##### 2. __Pdas__
+#### 2. __Pdas__
 Pdas client provides functions to derive program derived addresses.
 ```ts
 const NFT_MINT_ADDRESS: string = "3Z3HYn4TW9bnUrd58j6wKzQgmz23JPzS4PN12JXamZ9n"
@@ -51,7 +51,7 @@ const nftMetadataAddress = client.pdas.getMetadata({
 ```
 Available functions: `getMetadata`, `getEdition` (NFT edition/master edition), `getTokenRecord` (pNFT token record), `getAssociatedToken` (associated token address).
 
-##### 3. __Coder__
+#### 3. __Coder__
 Coder client provides function to decode accounts. It takes Buffer data and returns deserialized account data.
 ```ts
 const RPC = "https://api.mainnet-beta.solana.com"
