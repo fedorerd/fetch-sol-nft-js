@@ -63,5 +63,12 @@ console.log(decoded)
 ```
 Available decoders: `mintAccount`, `metadataAccount`, `tokenAccount`, `uriJson` (additional decoder for offchain json uri, which contains NFT attributes, description, etc.).
 
+#### 4. __Update connection__
+You may always update solana connection if you wish so.
+```ts
+const NEW_RPC: string = "https://api.devnet.solana.com"
+client.updateConnection(NEW_RPC)
+```
+
 ###### This package is not audited. Use at your own risk.
 ###### This package has no license yet, since I don't know which one to use lol. But feel free to use, idc.
