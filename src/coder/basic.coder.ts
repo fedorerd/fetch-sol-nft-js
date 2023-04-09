@@ -38,7 +38,7 @@ export function decodeBoolean (bytes: Buffer) {
 }
 
 export function decodeU8 (bytes: Buffer) {
-    return bytes[0]
+    return new BN(bytes.slice(0, 1)).toNumber()
 }
 
 export function decodeU16 (bytes: Buffer) {
