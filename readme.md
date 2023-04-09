@@ -72,3 +72,4 @@ client.updateConnection(NEW_RPC)
 
 ###### This package is not audited. Use at your own risk.
 ###### This package has no license yet, since I don't know which one to use lol. But feel free to use, idc.
+#### Feel free to contribute by creating PRs!
