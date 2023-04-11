@@ -76,7 +76,7 @@ export async function fetchNftByMint ({
         metadataAccount.uri
     )
     .catch(() => null)
-    .then(r => r ? r.arrayBuffer().then(buf => client.coder.uriJson(buf)) : null)
+    .then(r => r ? r.arrayBuffer().then(buf => client.coder.uriJson(buf)).catch(() => null) : null)
 
     if (uriJson) {
         if (uriJson.name && uriJson.name.length > metadataAccount.name.length) {
