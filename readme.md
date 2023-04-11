@@ -31,8 +31,7 @@ const nft = await client.fetch.nftByMint({
     mint: MINT
 })
 ```
-Available functions: `nftByMint`.
-_More functions, such as nftsByOwner, nftsByMintList to be added soon._
+Available functions: `nftByMint`, `nftsByOwner`.
 
 #### 1. __Constants__
 Constants client contains on-chain program IDs needed for working with NFTs.
