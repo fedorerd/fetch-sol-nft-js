@@ -1,6 +1,6 @@
 {
   "name": "@fedorerd/fetch-sol-nft",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/fedorerd/fetch-sol-nft-js"
@@ -20,7 +20,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
+  "author": "fedorerd",
   "license": "ISC",
   "dependencies": {
     "@solana/web3.js": "^1.75.0",
