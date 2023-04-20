@@ -1,6 +1,6 @@
 {
   "name": "@fedorerd/fetch-sol-nft",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/fedorerd/fetch-sol-nft-js"
