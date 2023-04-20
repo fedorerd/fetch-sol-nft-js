@@ -1,4 +1,4 @@
-import { Uri } from "../types/uri.type"
+import { Uri } from "../types"
 
 export function decodeUriJson (bytes: Buffer | ArrayBuffer): Uri | null {
     try {

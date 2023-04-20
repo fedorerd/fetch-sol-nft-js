@@ -1,7 +1,6 @@
 import { Connection, PublicKey } from "@solana/web3.js"
 import { FetchSolNftClient } from "../client"
-import { Metadata, Mint } from "../types"
-import { NftWithToken } from "../types/nft.type"
+import { Metadata, Mint, NftWithToken } from "../types"
 
 export type FetchNftsByOwnerArgs = {
     client: FetchSolNftClient,

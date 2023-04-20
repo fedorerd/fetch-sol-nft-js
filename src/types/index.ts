@@ -1,3 +1,5 @@
 export * from './metadata.type'
 export * from './token.type'
 export * from './mint.type'
+export * from './uri.type'
+export * from './nft.type'
